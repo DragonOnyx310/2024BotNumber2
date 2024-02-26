@@ -8,6 +8,7 @@ import frc.robot.Constants.OperatorConstants;
 import frc.robot.commands.Autos;
 import frc.robot.commands.ExampleCommand;
 import frc.robot.commands.RunIntake;
+import frc.robot.commands.RunShooter;
 import frc.robot.subsystems.ExampleSubsystem;
 import frc.robot.subsystems.IntakeSubsystem;
 import edu.wpi.first.wpilibj.GenericHID;
@@ -80,6 +81,7 @@ public class RobotContainer {
 
     leftButton.whileTrue(new RunIntake());
 
+    righButton.whileTrue(new RunShooter());
 
   }
 
