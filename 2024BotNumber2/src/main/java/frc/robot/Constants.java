@@ -25,6 +25,7 @@ public final class Constants {
   public static class ShooterConstants{
     public static final int shooterMotor1ID = 11;
     public static final int shooterMotor2ID = 12;
+    public static final int indexerID = 13;
   }
 
 }
